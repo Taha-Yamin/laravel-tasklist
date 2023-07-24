@@ -10,6 +10,7 @@
     @isset($task->long_description)
     <p>{{$task->long_description}}</p>
     @endisset
+    <p>{{$task->completed}}</p>
     <p>{{$task->created_at}}</p>
     <p>{{$task->updated_at}}</p>
 @endsection
